@@ -1,15 +1,13 @@
-//binary gap
+//return long gap between binary numbers 0 and 1
 package javacode;
 
 public class longgap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		solution(1041);
-
 	}
 
-	    public static int solution(int N) {
+	public static int solution(int N) {
 	    	 String binstr = Integer.toBinaryString(N);
 	         int len = 0;
 	         int maxlen = 0;
@@ -44,10 +42,5 @@ public class longgap {
 	             }
 	         }
 	         return maxlen;
-
 	    }
-	
-	
-	
-
 }
